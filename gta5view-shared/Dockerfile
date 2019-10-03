@@ -1,4 +1,4 @@
-FROM syping/qt5-shared-mingw-openssl:5.12.4
+FROM syping/qt5-shared-mingw-openssl:5.12.5
 
 RUN apt-get update && \
     apt-get install -y git lua5.2 nsis openssl && \
