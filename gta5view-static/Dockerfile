@@ -1,4 +1,4 @@
-FROM syping/qt5-static-mingw-openssl:5.12.5
+FROM syping/qt5-static-mingw-openssl:5.12.7
 
 RUN apt-get update && \
     apt-get install -y curl git lua5.2 openssl && \
