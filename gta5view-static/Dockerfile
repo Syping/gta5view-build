@@ -1,7 +1,9 @@
-FROM syping/qt5-static-mingw-openssl:5.12.7
+FROM syping/qt5-llvm-static-mingw:5.12.8
+
+WORKDIR /
 
 RUN apt-get update && \
-    apt-get install -y curl git lua5.2 openssl && \
+    apt-get install -y curl git lua5.2 openssl upx wget && \
     rm -rf /var/lib/apt/lists/*
 
 CMD ["/bin/bash"]
