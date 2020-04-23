@@ -1,4 +1,4 @@
-FROM syping/qt5-llvm-static-mingw:5.12.8
+FROM syping/qt5-static-llvm-mingw:5.12.8
 
 WORKDIR /
 
